@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "92480629678",
+    "project_id": "coverpagegenerator-6c4c0",
+    "storage_bucket": "coverpagegenerator-6c4c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92480629678:android:af619fd16a164580d7363f",
+        "android_client_info": {
+          "package_name": "com.trodev.coverpagegenator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIAsVlQP_kUb1Blg3ydV2BIZ1ybMGCk_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
