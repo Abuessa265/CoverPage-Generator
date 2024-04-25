@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Cover Page Genator</string>
+
+    <string-array name="Cover_Page">
+        <item>BUBT</item>
+        <item>BUET</item>
+        <item>CUET</item>
+        <item>RUET</item>
+        <item>KUET</item>
+        <item>DU</item>
+        <item>KU</item>
+        <item>JU</item>
+        <item>RU</item>
+        <item>AIUB</item>
+        <item>EWU</item>
+    </string-array>
 </resources>

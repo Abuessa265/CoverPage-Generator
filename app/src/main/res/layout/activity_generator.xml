@@ -6,10 +6,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
+    android:padding="7dp"
     tools:context=".generator">
-
-
 
 
     <LinearLayout
@@ -34,25 +32,62 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:weightSum="2"
-            >
+            android:weightSum="2">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="CoverPage"
-                android:textSize="15dp"
-                android:padding="10dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
                 android:layout_weight="1"
-                />
-            <TextView
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CoverPage"
+                    android:textSize="15dp"
+                    android:padding="10dp"
+                    android:layout_weight="1"
+
+                    />
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    >
+
+                </Spinner>
+
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
                 android:layout_weight="1"
-                android:padding="10dp"
-                android:textSize="15dp"
-                android:text="University"
-                />
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University"
+                    android:textSize="15dp"
+                    android:padding="10dp"
+                    android:layout_weight="1"
+
+                    />
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    >
+
+                </Spinner>
+
+            </LinearLayout>
+
         </LinearLayout>
 
         <EditText
@@ -118,6 +153,8 @@
             android:backgroundTint="#27A6B6"
             android:text="Generate PDF"
             />
+
+
 
     </LinearLayout>
 
