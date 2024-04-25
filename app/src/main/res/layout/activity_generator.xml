@@ -115,6 +115,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#27A6B6"
             android:text="Generate PDF"
             />
 
