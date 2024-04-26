@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:padding="7dp"
     tools:context=".generator">
 
@@ -20,10 +20,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="Generate Cover Page"
             android:gravity="center"
-            android:textSize="30dp"
+            android:text="Generate Cover Page"
             android:textColor="@color/black"
+            android:textSize="30dp"
             android:textStyle="bold"
 
             />
@@ -37,25 +37,24 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:orientation="horizontal"
                 android:layout_weight="1"
-                android:weightSum="2"
-                >
+                android:orientation="horizontal"
+                android:weightSum="2">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
                     android:text="CoverPage"
                     android:textSize="15dp"
-                    android:padding="10dp"
-                    android:layout_weight="1"
 
                     />
+
                 <Spinner
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    >
+                    android:layout_weight="1">
 
                 </Spinner>
 
@@ -64,25 +63,24 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:orientation="horizontal"
                 android:layout_weight="1"
-                android:weightSum="2"
-                >
+                android:orientation="horizontal"
+                android:weightSum="2">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
                     android:text="University"
                     android:textSize="15dp"
-                    android:padding="10dp"
-                    android:layout_weight="1"
 
                     />
+
                 <Spinner
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    >
+                    android:layout_weight="1">
 
                 </Spinner>
 
@@ -94,66 +92,151 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:inputType="textCapCharacters"
+            android:hint="Course Code"
+            android:inputType="textCapCharacters" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:hint="Course Name"
-            />
+            android:inputType="textCapCharacters" />
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:inputType="textCapCharacters"
             android:hint="Title"
-            />
+            android:inputType="textCapCharacters" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Faculty Information"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:inputType="textCapCharacters"
-            android:hint="Name"
-            />
-        <EditText
+            android:hint="Teacher Name"
+            android:inputType="textCapCharacters" />
+
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_margin="5dp"
             android:layout_height="wrap_content"
-            android:inputType="textCapCharacters"
-            android:hint="Student-ID"
-            />
-        <EditText
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:hint="Department"
+                android:inputType="textCapCharacters" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:hint="Designation"
+                android:inputType="textCapCharacters" />
+
+
+        </LinearLayout>
+
+
+        <TextView
             android:layout_width="match_parent"
-            android:layout_margin="5dp"
             android:layout_height="wrap_content"
-            android:inputType="textCapCharacters"
-            android:hint="Section"
-            />
-        <EditText
+            android:text="Student Information"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_margin="5dp"
             android:layout_height="wrap_content"
-            android:inputType="textCapCharacters"
-            android:hint="Depertment"
-            />
-        <EditText
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:hint="Student Name"
+                android:inputType="textCapCharacters" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:hint="Student-ID"
+                android:inputType="textCapCharacters" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_margin="5dp"
             android:layout_height="wrap_content"
-            android:inputType="textCapCharacters"
-            android:hint="Semister"
-            />
-        <EditText
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:hint="Section"
+                android:inputType="textCapCharacters" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:hint="Depertment"
+                android:inputType="textCapCharacters" />
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_margin="5dp"
             android:layout_height="wrap_content"
-            android:inputType="textCapCharacters"
-            android:hint="Date"
-            />
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:hint="Semister"
+                android:inputType="textCapCharacters" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:hint="Date"
+                android:inputType="textCapCharacters" />
+        </LinearLayout>
+
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:backgroundTint="#27A6B6"
-            android:text="Generate PDF"
-            />
-
+            android:text="Generate PDF" />
 
 
     </LinearLayout>
